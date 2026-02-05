@@ -22,9 +22,9 @@ Return *the minimum integer `k` such that she can eat all the bananas within h h
 **Output**: 23  
 
 ### Constraints
-1 <= `piles.length` <= 10^4  
-`piles.length` <= `h` <= 10^9  
-1 <= `piles[i]` <= 10^9  
+- 1 <= `piles.length` <= 10^4
+- `piles.length` <= `h` <= 10^9
+- 1 <= `piles[i]` <= 10^9
 
 ## Strategy
 Write a function to determine if a `k` value is valid. THe function goes over `piles` and calculates the sum of all the hours needed to clear each pile. If the sum is less or equal to `h`, the `k` value is valid.
