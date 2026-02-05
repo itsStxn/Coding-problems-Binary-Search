@@ -29,11 +29,11 @@ timeMap.get("foo", 5);         // return "bar2"
 ```
 
 ### Constraints
-1 <= `key.length`, `value.length` <= 100  
-key and value consist of lowercase English letters and digits.  
-1 <= `timestamp` <= 10^7  
-All the timestamps `timestamp` of set are strictly increasing.  
-At most 2 * 10^5 calls will be made to set and get.
+- 1 <= `key.length`, `value.length` <= 100
+- `key` and `value` consist of lowercase English letters and digits.
+- 1 <= `timestamp` <= 10^7
+- All the timestamps `timestamp` of set are strictly increasing.
+- At most 2 * 10^5 calls will be made to set and get.
 
 ## Strategy
 Store value is a dictionary that maps a key to a list of tuples. The tuple contains an `int` field for the time and a `string` field for the value. Simply use binary search to find the value for a key at a specific timestamp. 
