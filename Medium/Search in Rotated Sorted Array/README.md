@@ -22,11 +22,11 @@ You must write an algorithm with `O(log n)` runtime complexity.
 **Output**: -1  
 
 ### Constraints
-1 <= `nums.length` <= 5000  
--10^4 <= `nums[i]` <= 10^4  
-All values of nums are unique.  
-`nums` is an ascending array that is possibly rotated.  
--10^4 <= `target` <= 10^4
+- 1 <= `nums.length` <= 5000
+- -10^4 <= `nums[i]` <= 10^4
+- All values of nums are unique.
+- `nums` is an ascending array that is possibly rotated.
+- -10^4 <= `target` <= 10^4
 
 ## Strategy
 First off, find the index of the smallest value in the array. There are 2 halves around that smallest value.
