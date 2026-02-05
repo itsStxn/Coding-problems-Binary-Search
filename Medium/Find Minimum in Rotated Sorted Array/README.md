@@ -28,11 +28,11 @@ You must write an algorithm that runs in `O(log n)` time.
 **Explanation**: The original array was [11,13,15,17] and it was rotated 4 times.
 
 ### Constraints
-n == `nums.length`  
-1 <= `n` <= 5000  
--5000 <= `nums[i]` <= 5000  
-All the integers of `nums` are unique.  
-`nums` is sorted and rotated between 1 and `n` times.
+- n == `nums.length`
+- 1 <= `n` <= 5000
+- -5000 <= `nums[i]` <= 5000
+- All the integers of `nums` are unique.
+- `nums` is sorted and rotated between 1 and `n` times.
 
 ## Strategy
 Get a left and right pointer. Left is 0, right is the last index of the array.
