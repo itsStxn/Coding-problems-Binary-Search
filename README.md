@@ -3,9 +3,11 @@
 ## Difficulties
 
 ### Easy
+
 - Binary Seach
 
 ### Medium
+
 - Search a 2D Matrix	
 - Koko Eating Bananas	
 - Find Minimum In Rotated Sorted Array	
@@ -13,9 +15,11 @@
 - Time Based Key Value Store
 
 ### Hard
+
 - Median of Two Sorted Arrays
 
 ## Patterns
+
 - Search in a **sorted array or sorted range**
 - Asked to find **an exact value**
 - Asked to find **first or last occurrence**
